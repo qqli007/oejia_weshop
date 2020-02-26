@@ -9,7 +9,7 @@
     'application': True,
     'depends': ['base', 'mail', 'sale'],
     'external_dependencies': {
-        'python': ['Crypto', 'xmltodict', 'itsdangerous'],
+        'python': ['pycryptodome', 'xmltodict', 'itsdangerous'],
     },
     'data': [
         'security/res_groups.xml',
